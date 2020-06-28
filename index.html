@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--    main styling-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--    font awesome script-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>exam</title>
+</head>
+<body>
+<header>
+    <nav class="container">
+        <ul>
+            <li class="logo">
+                <a href="index.html"><span>top</span>estate</a>
+            </li>
+            <li class="links">
+                <a href="#">about us</a>
+                <a href="#">contact us</a>
+            </li>
+            <li>
+                <a class="login" href="#">login</a>
+                <div class="lang">
+                    <img src="images/united-states-of-america-flag-icon-16.png" alt="">
+                    <img src="images/armenia-flag-icon-32.png" alt="">
+                    <img src="images/greece-flag-icon-16.png" alt="">
+                </div>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="search_content">
+    <div class="container search">
+        <div>
+            <i class="fas fa-search"></i>
+        </div>
+        <div>
+            <p>type</p>
+            <select name="type" id="type">
+                <option>rent or sale</option>
+                <option>rent</option>
+                <option>sale</option>
+            </select>
+        </div>
+        <div>
+            <p>select an area</p>
+            <select name="area" id="area">
+                <option>north, south...</option>
+                <option>north</option>
+                <option>south</option>
+            </select>
+        </div>
+        <div>
+            <p>price</p>
+            <select name="price" id="price">
+                <option>100 - 100k</option>
+                <option>150 - 150k</option>
+                <option>200 - 200k</option>
+            </select>
+        </div>
+        <div>
+            <p>rooms</p>
+            <select name="rooms" id="rooms">
+                <option>1,2,3,4...</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+        <div>
+            <p>house type</p>
+            <select name="house" id="house">
+                <option>condo, appartment</option>
+                <option>condo</option>
+                <option>appartment</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">search</button>
+        </div>
+    </div>
+</div>
+<div class="banner">
+    <div class="left_banner">
+        <img src="images/left-banner.jpg" alt="">
+        <div class="ban-info">
+            <p>appartment</p>
+            <p>4 Rooms, Nicasio</p>
+            <p>$354</p>
+        </div>
+    </div>
+    <div class="right_banner">
+        <a href="#">for rent</a>
+        <a href="#">for sale</a>
+        <div class="right-gallery">
+            <div>
+                <img src="images/right-bann-1.jpg" alt="">
+                <div class="ban-info">
+                    <p>appartment</p>
+                    <p>4 Rooms, Nicasio</p>
+                    <p>$354</p>
+                </div>
+            </div>
+            <div>
+                <img src="images/right-bann-2.jpg" alt="">
+                <div class="ban-info">
+                    <p>appartment</p>
+                    <p>4 Rooms, Nicasio</p>
+                    <p>$354</p>
+                </div>
+            </div>
+            <div>
+                <img src="images/right-bann-3.jpg" alt="">
+                <div class="ban-info">
+                    <p>appartment</p>
+                    <p>4 Rooms, Nicasio</p>
+                    <p>$354</p>
+                </div>
+            </div>
+            <div>
+                <img src="images/right-bann-4.jpg" alt="">
+                <div class="ban-info">
+                    <p>appartment</p>
+                    <p>4 Rooms, Nicasio</p>
+                    <p>$354</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="select-content">
+    <ul>
+        <li>
+            <a href="#">appartments</a>
+        </li>
+        <li>
+            <a href="#">houses</a>
+        </li>
+        <li>
+            <a href="#">commercial</a>
+        </li>
+        <li>
+            <a href="#">landscapes</a>
+        </li>
+    </ul>
+</div>
+<div class="select container">
+    <div>
+        <p>type</p>
+        <label class="check-cont">rent
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </label>
+        <label class="check-cont">sale
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="check-cont">daily
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+    </div>
+    <div>
+        <p>select an area</p>
+        <label class="check-cont">famagusta
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </label>
+        <label class="check-cont">nicosia
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="check-cont">pahos
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+    </div>
+    <div>
+        <p>rooms</p>
+        <label class="check-cont">1
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </label>
+        <label class="check-cont">2
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label class="check-cont">3
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+    </div>
+    <div>
+        <p>surface</p>
+        <input type="text" placeholder="25-1000">
+        <br>
+        <p>street</p>
+        <input type="text" placeholder="Type street">
+    </div>
+    <div>
+        <p>price</p>
+        <input type="text" placeholder="100-100k">
+    </div>
+    <div>
+        <button><i class="fas fa-search"></i> search</button>
+    </div>
+</div>
+<div class="map">
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe id="gmap_canvas" src="https://maps.google.com/maps?ll=40.1872023,44.515209&q=Ереван&t=&z=14&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <a href="https://techwithlove.com/how-to-know-who-viewed-my-whatsapp-profile/">who viewed me</a>
+        </div>
+        <div class="mapouterPop">
+            <img src="images/right-bann-1.jpg" alt="">
+            <h3>Light & Spacious Garden Flat</h3>
+            <p class="offer">4 Rooms, Nicoisa | Appartment</p>
+            <p class="price">$354</p>
+            <p class="desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aut dicta, dignissimos doloremque ipsam itaque </p>
+            <button>view</button>
+        </div>
+    </div>
+
+</div>
+<div class="book">
+    <h2>Book unique homes</h2>
+    <p class="book-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, aperiam commodi dolorum ea eius error ipsum laboriosam modi recusandae? Assumenda dicta doloribus ea id iusto labore quaerat quod ullam, vitae?</p>
+    <div>
+        <img src="images/book.webp" alt="">
+        <div>
+            <h4>Light & Spacious Garden Flat</h4>
+            <p class="offer">Appartment, 1 room, Carnaca, North </p>
+            <p class="addr">Nicola synamin 12 str.</p>
+            <p class="desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aut dicta, dignissimos doloremque ipsam itaque </p>
+            <span>45m2</span><span>-</span><span>3</span><span>$23/day</span>
+        </div>
+    </div>
+    <div>
+        <img src="images/book.webp" alt="">
+        <div>
+            <h4>Light & Spacious Garden Flat</h4>
+            <p class="offer">Appartment, 1 room, Carnaca, North </p>
+            <p class="addr">Nicola synamin 12 str.</p>
+            <p class="desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aut dicta, dignissimos doloremque ipsam itaque </p>
+            <span>45m2</span><span>-</span><span>3</span><span>$23/day</span>
+        </div>
+    </div>
+    <div>
+        <img src="images/book.webp" alt="">
+        <div>
+            <h4>Light & Spacious Garden Flat</h4>
+            <p class="offer">Appartment, 1 room, Carnaca, North </p>
+            <p class="addr">Nicola synamin 12 str.</p>
+            <p class="desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aut dicta, dignissimos doloremque ipsam itaque </p>
+            <span>45m2</span><span>-</span><span>3</span><span>$23/day</span>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footer-content container ">
+        <div class="left-footer">
+            <ul>
+                <li class="logo">
+                    <a href="index.html"><span>top</span>estate</a>
+                </li>
+                <li class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </li>
+                <li class="rights">© All rights reserved </li>
+            </ul>
+        </div>
+        <div class="right-footer">
+            <ul>
+                <li><a href="#">about</a></li>
+                <li><a href="#">careers</a></li>
+                <li><a href="#">press</a></li>
+                <li><a href="#">policies</a></li>
+                <li><a href="#">help</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">trust $ safety</a></li>
+                <li><a href="#">travel credit</a></li>
+                <li><a href="#">gift action</a></li>
+                <li><a href="#">business travel</a></li>
+                <li><a href="#">guideboooks</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">why host</a></li>
+                <li><a href="#">hospitality</a></li>
+                <li><a href="#">responsible hosting</a></li>
+            </ul>
+        </div>
+
+    </div>
+</footer>
+
+
+<script src="js/js.js"></script>
+</body>
+</html>
